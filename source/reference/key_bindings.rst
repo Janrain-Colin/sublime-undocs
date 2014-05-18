@@ -224,7 +224,7 @@ Warning about Bindable Keys
 If you're developing a package, keep this in mind:
 
 * ``Ctrl+Alt+<alphanum>`` should not be used for any Windows key bindings.
-* ``Option+<alphanum>`` should not be used for any OS X key bindings.
+* ``Option+<printable>`` and ``Shift+Option+<printable>`` should not be used for any OS X key bindings.
 
 In both cases, the user's ability to insert non-ASCII characters would be
 compromised.
